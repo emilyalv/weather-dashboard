@@ -1,0 +1,17 @@
+.city-input {
+    margin: 10px;
+}
+
+.display-weather {
+    width: 100%;
+    background-color: skyblue;
+    
+}
+.recent {
+    width: 100%;
+    background-color: royalblue;
+}
+
+.forecast-container {
+    background-color: lightgrey;
+}

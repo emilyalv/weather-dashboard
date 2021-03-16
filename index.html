@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Weather Dashboard</title>
+<link rel="stylesheet" href="assets/css/styles.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+</head>
+<body>
+<div class="row">
+<h3>Search for Weather in your City:</h3>
+<div class="city-input col-md-6">
+    <input type="text" class="input-value">
+    <input type="submit" class="submit-button btn-primary" value="Submit">
+</div>
+</div>
+<div class="row">
+<div class="display-weather col-md-12 text-center">
+    <h1 class="city-name"></h1>
+    <p class="current-header"></p>
+    <p class="today-image"></p>
+    <p class="temperature"></p>
+    <p class="weather-details"></p>
+    <!-- <p class="humidity"></p>
+    <p class="wind-speed"></p>
+    <p class="uv-index"></p> -->
+</div>
+</div>
+<div class="row">
+<div class="forecast-container col-md-4">
+    <div class="forecast-A-heading"></div>
+    <div class="icon-A"></div>
+    <div class="forecast-A"></div>
+</div>
+<div class="forecast-container col-md-4">
+    <div class="forecast-B-heading"></div>
+    <div class="icon-B"></div>
+    <div class="forecast-B"></div>
+</div>
+<div class="forecast-container col-md-4">
+    <div class="forecast-C-heading"></div>
+    <div class="icon-C"></div>
+    <div class="forecast-C"></div>
+</div>
+</div>
+<div class="row recent text-white col-md-12">
+    <h3>Recent Cities</h3>
+    <div class="recent-cities"></div>
+
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>
